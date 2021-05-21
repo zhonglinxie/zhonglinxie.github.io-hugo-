@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"zhonglinxie.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="数值分析第六周作业 1 记 [ R_{2n+1}(x) &#x3D; f(x) - H_{2n+1}(x), ] 则(R_{2n+1}(x_j) &#x3D; R_{2n+1}&#39;(x_j) &#x3D; 0, j &#x3D; 0,1,,n.)于是 [ R_{2n+1}(x) &#x3D; K(x)w_{n+1}^2(x). ] 定义 [E(t)&#x3D;R_{2n+1}(t)-K(x)w_{n+1}^2(t),] 则(E(t))以(x_0,x_1,,x">
+  <meta name="description" content="1 记 \[     R_{2n+1}(x) &#x3D; f(x) - H_{2n+1}(x), \] 则\(R_{2n+1}(x_j) &#x3D; R_{2n+1}&#39;(x_j) &#x3D; 0, j &#x3D; 0,1,\cdots,n.\)于是 \[     R_{2n+1}(x) &#x3D; K(x)w_{n+1}^2(x). \] 定义 \[E(t)&#x3D;R_{2n+1}(t)-K(x)w_{n+1}^2(t),\] 则\(">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="数值分析第六周作业">
 <meta property="og:url" content="http://zhonglinxie.github.io/2021/04/19/HW06/index.html">
 <meta property="og:site_name" content="Zhonglin&#39;s Homepage">
-<meta property="og:description" content="数值分析第六周作业 1 记 [ R_{2n+1}(x) &#x3D; f(x) - H_{2n+1}(x), ] 则(R_{2n+1}(x_j) &#x3D; R_{2n+1}&#39;(x_j) &#x3D; 0, j &#x3D; 0,1,,n.)于是 [ R_{2n+1}(x) &#x3D; K(x)w_{n+1}^2(x). ] 定义 [E(t)&#x3D;R_{2n+1}(t)-K(x)w_{n+1}^2(t),] 则(E(t))以(x_0,x_1,,x">
+<meta property="og:description" content="1 记 \[     R_{2n+1}(x) &#x3D; f(x) - H_{2n+1}(x), \] 则\(R_{2n+1}(x_j) &#x3D; R_{2n+1}&#39;(x_j) &#x3D; 0, j &#x3D; 0,1,\cdots,n.\)于是 \[     R_{2n+1}(x) &#x3D; K(x)w_{n+1}^2(x). \] 定义 \[E(t)&#x3D;R_{2n+1}(t)-K(x)w_{n+1}^2(t),\] 则\(">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-04-19T11:29:39.115Z">
-<meta property="article:modified_time" content="2021-05-21T03:26:20.421Z">
+<meta property="article:modified_time" content="2021-05-21T03:36:19.366Z">
 <meta property="article:author" content="Zhonglin Xie">
 <meta name="twitter:card" content="summary">
 
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>Hello World | Zhonglin's Homepage</title>
+  <title>数值分析第六周作业 | Zhonglin's Homepage</title>
   
 
 
@@ -163,7 +163,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          数值分析第六周作业
         </h1>
 
         <div class="post-meta">
@@ -180,7 +180,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-05-21 11:26:20" itemprop="dateModified" datetime="2021-05-21T11:26:20+08:00">2021-05-21</time>
+                <time title="Modified: 2021-05-21 11:36:19" itemprop="dateModified" datetime="2021-05-21T11:36:19+08:00">2021-05-21</time>
               </span>
 
           
@@ -194,37 +194,52 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="数值分析第六周作业">数值分析第六周作业</h1>
-<h2 id="section">1</h2>
-<p>记 [ R_{2n+1}(x) = f(x) - H_{2n+1}(x), ] 则(R_{2n+1}(x_j) = R_{2n+1}'(x_j) = 0, j = 0,1,,n.)于是 [ R_{2n+1}(x) = K(x)w_{n+1}^2(x). ] 定义 [E(t)=R_{2n+1}(t)-K(x)w_{n+1}^2(t),] 则(E(t))以(x_0,x_1,,x_{n},x)为零点,于是(E'(t))有(x,<em>i,x_i,i=0,1,,n)共(2n+3)个零点,且互不重复.故存在() [ E^{(2n+2)}() = 0K(x) = f(x) - H</em>{2n+1}(x) = w_{n+1}^2(x). ]</p>
+        <h2 id="section">1</h2>
+<p>记 <span class="math display">\[
+    R_{2n+1}(x) = f(x) - H_{2n+1}(x),
+\]</span> 则<span class="math inline">\(R_{2n+1}(x_j) = R_{2n+1}&#39;(x_j) = 0, j = 0,1,\cdots,n.\)</span>于是 <span class="math display">\[
+    R_{2n+1}(x) = K(x)w_{n+1}^2(x).
+\]</span> 定义 <span class="math display">\[E(t)=R_{2n+1}(t)-K(x)w_{n+1}^2(t),\]</span> 则<span class="math inline">\(E(t)\)</span>以<span class="math inline">\(x_0,x_1,\cdots,x_{n},x\)</span>为零点,于是<span class="math inline">\(E&#39;(t)\)</span>有<span class="math inline">\(x,\xi_i,x_i,i=0,1,\cdots,n\)</span>共<span class="math inline">\(2n+3\)</span>个零点,且互不重复.故存在<span class="math inline">\(\xi\in[\min_i x_i, \max_i x_i]\)</span> <span class="math display">\[
+    E^{(2n+2)}(\xi) = 0\Leftrightarrow K(x) = \frac{f^{(2n+2)}(\xi)}{(2n+2)!}\Leftrightarrow f(x) - H_{2n+1}(x) = \frac{f^{(2n+2)}(\xi)}{(2n+2)!}w_{n+1}^2(x).
+\]</span></p>
 <h2 id="p105-5">P105, 5</h2>
-<p>[<em>{c}^d f(x,y) y = (f(x,c)+4f(x,)+f(x,d)) - (x,),(c, d).] 记[g(x)=(f(x,c)+4f(x,)+f(x,d)),]则 [</em>{a}^b x_{c}^d f(x,y) y (g(a)+4g()+g(b)).] 由Simpson公式的结果知余项为 [ -g^{(4)}() - (x,)= -(f(,c)+4f(,)+f(,d)) - (x,), (a,b). ]</p>
+<p><span class="math display">\[\int_{c}^d f(x,y) \mathrm{~d}y = \frac{d-c}{6}(f(x,c)+4f(x,\frac{c+d}{2})+f(x,d)) - \frac{(d-c)^5}{2880}\frac{\partial^4f}{\partial y^4}(x,\eta),\quad \eta \in (c, d).\]</span> 记<span class="math display">\[g(x)=\frac{d-c}{6}(f(x,c)+4f(x,\frac{c+d}{2})+f(x,d)),\]</span>则 <span class="math display">\[\int_{a}^b \mathrm{~d}x\int_{c}^d f(x,y) \mathrm{~d}y \approx \frac{b-a}{6}(g(a)+4g(\frac{a+b}{2})+g(b)).\]</span> 由Simpson公式的结果知余项为 <span class="math display">\[
+    -\frac{(b-a)^5}{2880}g^{(4)}(\xi) - \frac{(d-c)^5}{2880}\frac{\partial^4f}{\partial y^4}(x,\eta)=
+    -\frac{d-c}{6}\frac{\partial^4}{\partial x^4}(f(\xi,c)+4f(\xi,\frac{c+d}{2})+f(\xi,d)) - \frac{(d-c)^5}{2880}\frac{\partial^4f}{\partial y^4}(x,\eta), \quad\xi\in(a,b).
+\]</span></p>
 <h2 id="p105-8">P105, 8</h2>
 <ol type="1">
-<li><p>(3.3.14) [</p>
-<span class="math display">\[\begin{aligned}
+<li><p>(3.3.14) <span class="math display">\[
+\begin{aligned}
 \left|\int_{a}^{b} f(x) \mathrm{~d} x-M(h)\right| = \left|\sum_{i=0}^{n-1}\int_{x_i}^{x_{i+1}} f(x) -f(x_{i+1/2})\mathrm{~d} x\right| \leq \sum_{i=0}^{n-1} \frac{h^{3}}{24}|f&#39;&#39;(\xi_i)|\leq \frac{h^{2}}{24} M_{2}(b-a).
-\end{aligned}\]</span>
-<p>]</p></li>
-<li><p>(3.3.15) [ |<em>{a}^{b} f(x)  x-T(h)| = |</em>{i=0}^{n-1}<em>{x_i}^{x</em>{i+1}} f(x) -(f(x_{i})+f(x_{i+1})) x| _{i=0}^{n-1} |f''(<em>i)| M</em>{2}(b-a). ]</p></li>
-<li><p>(3.3.16) [</p>
-<span class="math display">\[\begin{aligned}
+\end{aligned}
+\]</span></p></li>
+<li><p>(3.3.15) <span class="math display">\[
+\left|\int_{a}^{b} f(x) \mathrm{~d} x-T(h)\right| = \left|\sum_{i=0}^{n-1}\int_{x_i}^{x_{i+1}} f(x) -\frac{1}{2}(f(x_{i})+f(x_{i+1}))\mathrm{~d} x\right| \leq \sum_{i=0}^{n-1} \frac{h^{3}}{12}|f&#39;&#39;(\xi_i)|\leq \frac{h^{2}}{12} M_{2}(b-a).
+\]</span></p></li>
+<li><p>(3.3.16) <span class="math display">\[
+ \begin{aligned}
 \left|\int_{a}^{b} f(x) \mathrm{d} x-S(h)\right| &amp;= \left|\sum_{i=0}^{n-1}\int_{x_i}^{x_{i+1}} f(x) -\frac{x_{i+1}-x_i}{6}(f(x_{i})+4f(\frac{x_i+x_{i+1}}{2})+f(x_{i+1}))\mathrm{~d} x\right|\\
 &amp;\leq  \sum_{i=0}^{n-1} \frac{h^{5}}{2880}|f^{(4)}(\xi_i)| \leq \frac{h^{4}}{2880} M_{4}(b-a).
-\end{aligned}\]</span>
-<p>]</p></li>
+\end{aligned}
+\]</span></p></li>
 </ol>
 <h2 id="ｐ106-10">Ｐ106, 10</h2>
 <ol type="1">
-<li><p>否则,假设(P(x))在((a,b))只有<span class="math inline">\(k\)</span>个实根<span class="math inline">\(x_1,x_2,\cdots,x_k,k &lt; n\)</span>.则取[ Q_{k}(x)=(x-x_{1})(x-x_{2}) (x-x_{k}){1,x,x<sup>2,,x</sup>k}.] 则设(P(x)=R(x)Q_k(x)),其中(R(x))在((a,b))上定号,于是 [_a^b P(x)Q_k(x) x = _a^b R(x)Q_k^2(x) x .]</p></li>
-<li><p>(f(x)<em>{2n-1}, f(x) = P(x)Q(x)+R(x),Q,R</em>{n-1}),于是 [</p>
-<span class="math display">\[\begin{aligned}
+<li><p>否则,假设<span class="math inline">\(P(x)\)</span>在<span class="math inline">\((a,b)\)</span>只有<span class="math inline">\(k\)</span>个实根<span class="math inline">\(x_1,x_2,\cdots,x_k,k &lt; n\)</span>.则取<span class="math display">\[
+Q_{k}(x)=\left(x-x_{1}\right)\left(x-x_{2}\right) \cdots\left(x-x_{k}\right)\in \text{span}\{1,x,x^2,\cdots,x^k\}.\]</span> 则设<span class="math inline">\(P(x)=R(x)Q_k(x)\)</span>,其中<span class="math inline">\(R(x)\)</span>在<span class="math inline">\((a,b)\)</span>上定号,于是 <span class="math display">\[\int_a^b P(x)Q_k(x) \mathrm{~d}x = \int_a^b R(x)Q_k^2(x) \mathrm{~d}x \neq 0.\text{矛盾!}\]</span></p></li>
+<li><p><span class="math inline">\(\forall f(x)\in \mathbb{P}_{2n-1}, f(x) = P(x)Q(x)+R(x),Q,R\in \mathbb{P}_{n-1}\)</span>,于是 <span class="math display">\[\begin{aligned}
 \int_a^b f(x)\mathrm{~d} x = \int_a^b P(x)Q(x)\mathrm{~d} x + \int_a^b R(x)\mathrm{~d} x=\sum_{i=1}^{n}A_iR(x_i)= \sum_{i=1}^{n}A_if(x_i).
-\end{aligned}\]</span>
-<p>]</p></li>
+\end{aligned}\]</span></p></li>
 </ol>
 <h2 id="p106-11">P106, 11</h2>
-<p>由 [ f(x)=<em>{j=0}^{n} f(x</em>{j}) l_{j}(x)+ <em>{j=0}^{n}(x-x</em>{j}) ] 知(r_i)可取为 [ r_i = <em>a^b l</em>{i}(x) x. ] 若存在不恒同于(r_i)的(r_i')使得 [ <em>{i=0}^{n} r</em>{i}' P(x_{i})=_{a}^{b} P(x)  x, ] 取(P_i)满足(P_i(x_i)=1,P_i(x_j)=0,ji)即知(r_ir'_i),唯一性得证.</p>
+<p>由 <span class="math display">\[
+f(x)=\sum_{j=0}^{n} f\left(x_{j}\right) l_{j}(x)+\frac{f^{(n+1)}(\xi)}{(n+1) !} \prod_{j=0}^{n}\left(x-x_{j}\right)
+\]</span> 知<span class="math inline">\(r_i\)</span>可取为 <span class="math display">\[
+    r_i = \int_a^b l_{i}(x) \mathrm{~d}x.
+\]</span> 若存在不恒同于<span class="math inline">\(r_i\)</span>的<span class="math inline">\(r_i&#39;\)</span>使得 <span class="math display">\[
+\sum_{i=0}^{n} r_{i}&#39; P\left(x_{i}\right)=\int_{a}^{b} P(x) \mathrm{~d} x,
+\]</span> 取<span class="math inline">\(P_i\)</span>满足<span class="math inline">\(P_i(x_i)=1,P_i(x_j)=0,\forall j\neq i\)</span>即知<span class="math inline">\(r_i\equiv r&#39;_i\)</span>,唯一性得证.</p>
 
     </div>
 
@@ -238,13 +253,6 @@
 
 
         
-    <div class="post-nav">
-      <div class="post-nav-item"></div>
-      <div class="post-nav-item">
-    <a href="/2021/05/20/hello-world/" rel="next" title="Hello World">
-      Hello World <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
       </footer>
     
   </article>
@@ -302,7 +310,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90%E7%AC%AC%E5%85%AD%E5%91%A8%E4%BD%9C%E4%B8%9A"><span class="nav-number">1.</span> <span class="nav-text">数值分析第六周作业</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#section"><span class="nav-number">1.1.</span> <span class="nav-text">1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#p105-5"><span class="nav-number">1.2.</span> <span class="nav-text">P105, 5</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#p105-8"><span class="nav-number">1.3.</span> <span class="nav-text">P105, 8</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BD%90106-10"><span class="nav-number">1.4.</span> <span class="nav-text">Ｐ106, 10</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#p106-11"><span class="nav-number">1.5.</span> <span class="nav-text">P106, 11</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#section"><span class="nav-number">1.</span> <span class="nav-text">1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#p105-5"><span class="nav-number">2.</span> <span class="nav-text">P105, 5</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#p105-8"><span class="nav-number">3.</span> <span class="nav-text">P105, 8</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BD%90106-10"><span class="nav-number">4.</span> <span class="nav-text">Ｐ106, 10</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#p106-11"><span class="nav-number">5.</span> <span class="nav-text">P106, 11</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -316,7 +324,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
